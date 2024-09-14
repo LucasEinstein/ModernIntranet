@@ -1,0 +1,103 @@
+/*
+CSS style, not CODING style (just saying)
+Also this might be really bad, no judging allowed
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.intra > .header-wrapper {
+	background: #4386c5;
+}
+
+#header .intra {
+    background: #fff0;
+}
+
+#sidebar {
+	background: url("https://www.epitech.eu/wp-content/uploads/2023/11/jpo-background-jpg.webp") center;
+	background-size: cover;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer {
+    background: #2b475c;
+    border-radius: 0px 25px 0px 0px;
+    color: white;
+}
+
+img {
+	border-radius: 10px;
+}
+
+.title > .label {
+	font-weight: 800;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.activite, .projet, .note, .susie, .final_render > .module  {
+  box-shadow: 0px 1px 10px 3px rgba(0, 0, 0, .16);
+  background-color: #fff !important;
+	border-radius: 10px !important;
+}
+
+.infos > .picture {
+	border-radius:11px !important;
+  height: 22px !important;
+    width: 22px !important;
+    margin-top: 4px !important;
+    background-size: contain !important;
+}
+
+#header #identification .infos {
+    background-color: #2b475c;
+    margin: 20px 15px 0px 0px;
+    border-radius: 20px;
+}
+
+.FR > .icon {
+	background: url(https://em-content.zobj.net/source/google/404/flag-france_1f1eb-1f1f7.png) center !important;
+    background-size: cover !important;
+}
+
+.EN > .icon {
+  background: url(https://em-content.zobj.net/source/google/404/flag-united-kingdom_1f1ec-1f1e7.png) center !important;
+    background-size: cover !important;
+}
+
+.CN > .icon {
+  background: url(https://em-content.zobj.net/source/google/404/flag-china_1f1e8-1f1f3.png) center !important;
+    background-size: cover !important;
+}
+
+#wall #content .item .first .data {
+  border-radius:10px;
+}
+
+#wall #content.wall .bloc .item .identity .arrow.picture {
+    height: 0;
+    width: 0;
+  opacity:1;
+}
+
+#header #notification {
+    background-color: #2b475c;
+    margin-top: 20px !important;
+    border-radius: 20px;
+}
+
+#header #notification a {
+    border-radius: 20px !important;
+}
+
+#header #language {
+    float: right;
+    display: block;
+    margin: 23px 1% 0 0;
+    width: 85px;
+}
